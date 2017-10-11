@@ -35,7 +35,7 @@ class Blockchain(object):
 
         # Adds a new transaction to the list of transactions
         # in the old last block created (the new one)
-       return self.last_block['index'] + 1
+        return self.last_block['index'] + 1
     
 
 
