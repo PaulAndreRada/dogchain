@@ -1,5 +1,5 @@
 # dogchain 
-Paul's overly simplified blockchain </br>
+Paul's overly simplified blockchain, just for fun. </br>
 Created using [this tutorial](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 
 ### Dependencies: 
@@ -37,8 +37,9 @@ Download Flask and Requests: </br>
 </br>
 
 
-### Play with the blockchain (while it's running), open your broser and use: 
+## Play with the blockchain (while it's running): 
 
+### In your browser
 `http://localhost:5000/mine` </br>
 This mines a new block
 
@@ -46,7 +47,7 @@ This mines a new block
 `http://localhost:5000/chain` </br>
 This shows you the full chain ( it's just one chain for now, the consensus algorithm is being buggy )
 
-
+### In the terminal: 
 ```
 $ curl -X POST -H "Content-Type: application/json" -d '{
  "sender": "d4ee26eee15148ee92c6cd394edd974e",
