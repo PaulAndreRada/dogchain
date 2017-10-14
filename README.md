@@ -26,7 +26,7 @@ Download Flask and Requests: </br>
 `pip3 install Flask==0.12.2 requests==2.18.4` 
 
 </br>
-
+If any of those don't work you might be missing Xcode's command line tools, [here's some help](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-macos)
 
 ### How to run the blockchain: 
 - Download or clone it
